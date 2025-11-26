@@ -24,7 +24,7 @@ def calculate_iou_euclidean(box1, label_path,img_path):
     # 获取ground truth box
     img = cv2.imread(img_path)
     h, w = img.shape[:2]
-    with open('nuScenes/Trainval/labels/'+label_path.replace('jpg','txt'), 'r') as f:
+    with open('data/nuScenes/labels/'+label_path.replace('jpg','txt'), 'r') as f:
         lb = np.array([x.split() for x in f.read().strip().splitlines()], dtype=np.float32)
         # 绘制每一个目标
     for x in lb:

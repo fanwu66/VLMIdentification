@@ -1,4 +1,4 @@
-# OpenDriveVLA: Towards End-to-end Autonomous Driving with  Large Vision Language Action Model
+# Enhancing Robotaxi Pick-up through Vision-Language-Model-Based Passenger Identification
 
 <h3 align="center">
   <a href="https://drivevla.github.io/">Project Page</a> |

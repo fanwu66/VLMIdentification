@@ -16,13 +16,13 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 def main():
 
     # 读取 Excel 文件
-    filenames = os.listdir("nuScenes/Trainval/CAM_FRONT_RIGHT")
-    file_path = 'nuScenes/nus_trainval.xlsx'
+    filenames = os.listdir("data/nuScenes/image")
+    file_path = 'data/nuScenes/image/nuScenes.xlsx'
     sheet_name = 'Sheet1'
     df = pd.read_excel(file_path, sheet_name=sheet_name)
 
     # VLM 参数
-    device = "cuda:1"
+    device = "cuda:0"
     tokenizer = AutoTokenizer.from_pretrained("Qwen-VL-Chat", trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained("Qwen-VL-Chat", device_map=device, trust_remote_code=True).eval()
     yolo10 = YOLOv10("yolov10x.pt")
@@ -39,7 +39,7 @@ def main():
         TP, FN, FP, TN, IDS = 0, 0, 0, 0, 0
 
         # 获取GT的值和列表
-        with open('nuScenes/Trainval/seq/'+str(k)+'.txt', 'r', encoding='utf-8') as file:
+        with open('data/nuScenes/seq/'+str(k)+'.txt', 'r', encoding='utf-8') as file:
             # 将每行的内容存储在列表中
             seqs = file.readlines()
 
@@ -66,7 +66,7 @@ def main():
             v = ''
             os.mkdir("Tailor")
             # 图片路径
-            path = 'nuScenes/Trainval/CAM_FRONT_RIGHT/'+link
+            path = 'data/nuScenes/image/'+link
 
             # a Module
             threshold, tailor_dicts = tailor(yolo10,model,tokenizer,path)

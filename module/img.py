@@ -6,7 +6,7 @@ def draw_box(link,x,k):
     x1,y1,x2,y2 = x
     src = 'Output'+ str(k) + '/' + link
     
-    img = cv2.imread('nuScenes/Trainval/CAM_FRONT_RIGHT/'+link)
+    img = cv2.imread('data/nuScenes/image/'+link)
 
     cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0), 2)
     cv2.imwrite(src,img)
