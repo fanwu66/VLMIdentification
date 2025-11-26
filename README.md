@@ -27,7 +27,7 @@
     <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
     <a href="https://pytorchlightning.ai/"><img alt="Lightning" src="https://img.shields.io/badge/-Lightning-792ee5?logo=pytorchlightning&logoColor=white"></a>
     <br></br>
-    <a href="https://arxiv.org/abs/2303.08498">
+    <a href="">
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&labelColor=66cc00&color=94DD15' alt='Paper PDF'>
     </a>
   </p>
@@ -38,30 +38,6 @@
 - [2024/11/26] We release the code of VLMIdentification.
 - [2023/11/13] VLMIdentification got accepted to IEEE T-ITS. 🎉
 
-# Incoming
-
-- [ ] Release the pretrained models
-- [ ] Support train and test on a custom dataset
-
-<br>
-
-<!-- TABLE OF CONTENTS -->
-<details open="open" style='padding: 10px; border-radius:5px 30px 30px 5px; border-style: solid; border-width: 1px;'>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#Getting Started">Getting Started</a>
-    </li>
-    <li>
-      <a href="#Acknowledgment">Acknowledgment</a>
-    </li>
-    <li>
-      <a href="#Citation">Citation</a>
-    </li>
-  </ol>
-</details>
-
-<br/>
 
 # Getting Started
 
@@ -79,7 +55,7 @@ This project is not possible without the following codebases.
 * [Qwen-VL](https://github.com/QwenLM/Qwen-VL)
 
 # Citation
-If you use BEVHeight in your research, please cite our work by using the following BibTeX entry:
+If you use VLMIdentification in your research, please cite our work by using the following BibTeX entry:
 ```
 @inproceedings{wu2025vlmidentification,
     title={Enhancing Robotaxi Pick-up through Vision-Language-Model-Based Passenger Identification},
