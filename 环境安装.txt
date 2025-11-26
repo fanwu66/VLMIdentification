@@ -1,0 +1,12 @@
+conda create -n vlm python=3.8 -y
+conda activate vlm
+pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
+pip install pandas
+pip install transformers
+pip install ultralytics
+pip install opencv-python-headless
+pip install -q git+https://github.com/THU-MIG/yolov10.git
+pip install tiktoken
+pip install transformers_stream_generator einops
+pip install accelerate>=0.26.0
+pip install opencv-python
