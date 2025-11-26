@@ -26,16 +26,12 @@
   <br>
     <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
     <a href="https://pytorchlightning.ai/"><img alt="Lightning" src="https://img.shields.io/badge/-Lightning-792ee5?logo=pytorchlightning&logoColor=white"></a>
-     <a href='https://hub.docker.com/repository/docker/yanglei2024/op-bevheight/general'><img src='https://img.shields.io/badge/Docker-9cf.svg?logo=Docker' alt='Docker'></a>
     <br></br>
     <a href="https://arxiv.org/abs/2303.08498">
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&labelColor=66cc00&color=94DD15' alt='Paper PDF'>
     </a>
   </p>
 </p>
-
-**BEVHeight** is a new vision-based 3D object detector specially designed for roadside scenario. BEVHeight surpasses BEVDepth base-
-line by a margin of 4.85% and 4.43% on **DAIR-V2X-I** and **Rope3D** benchmarks under the traditional clean settings, and by **26.88%** on robust settings where external camera parameters changes. We hope our work can shed light on studying more effective feature representation on **roadside perception**.
 
 
 # News
