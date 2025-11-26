@@ -68,14 +68,11 @@
 - [Installation](docs/install.md)
 - [Prepare Dataset](docs/prepare_dataset.md)
 
-Train BEVHeight with 8 GPUs
+Run VLMIdentification
 ```
-python [EXP_PATH] --amp_backend native -b 8 --gpus 8
+python main.py
 ```
-Eval BEVHeight with 8 GPUs
-```
-python [EXP_PATH] --ckpt_path [CKPT_PATH] -e -b 8 --gpus 8
-```
+
 # Experimental Results
 
 
@@ -236,18 +233,17 @@ python [EXP_PATH] --ckpt_path [CKPT_PATH] -e -b 8 --gpus 8
 
 # Acknowledgment
 This project is not possible without the following codebases.
-* [BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth)
-* [DAIR-V2X](https://github.com/AIR-THU/DAIR-V2X)
-* [pypcd](https://github.com/dimatura/pypcd)
+* [YOLOv10](https://github.com/THU-MIG/yolov10)
+* [Qwen-VL](https://github.com/QwenLM/Qwen-VL)
 
 # Citation
 If you use BEVHeight in your research, please cite our work by using the following BibTeX entry:
 ```
-@inproceedings{yang2023bevheight,
-    title={BEVHeight: A Robust Framework for Vision-based Roadside 3D Object Detection},
-    author={Yang, Lei and Yu, Kaicheng and Tang, Tao and Li, Jun and Yuan, Kun and Wang, Li and Zhang, Xinyu and Chen, Peng},
-    booktitle={IEEE/CVF Conf.~on Computer Vision and Pattern Recognition (CVPR)},
-    month = mar,
-    year={2023}
+@inproceedings{wu2025vlmidentification,
+    title={Enhancing Robotaxi Pick-up through Vision-Language-Model-Based Passenger Identification},
+    author={},
+    booktitle={},
+    month = ,
+    year={}
 }
 ```
