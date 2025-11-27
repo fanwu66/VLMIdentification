@@ -43,6 +43,7 @@
 
 - [Installation](docs/install.md)
 - [Prepare Dataset](docs/prepare_dataset.md)
+- [Prepare Model](docs/prepare_model.md)
 
 Run VLMIdentification
 ```
