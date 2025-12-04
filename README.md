@@ -35,8 +35,8 @@
 
 
 # News
-- [2024/11/26] We release the code of VLMIdentification.
-- [2023/11/13] VLMIdentification got accepted to IEEE T-ITS. 🎉
+- [2025/11/26] We release the code of VLMIdentification.
+- [2025/11/13] VLMIdentification got accepted to IEEE T-ITS. 🎉
 
 
 # Getting Started
