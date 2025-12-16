@@ -12,7 +12,7 @@
     ·
     <a href=""><strong>Xiang Sun</strong></a>
     ·
-    <a href="https://cyberc3.sjtu.edu.cn/people.htm"><strong>Hanyang Zhuang</strong></a>
+    <a href="https://www.ji.sjtu.edu.cn/cn/about/faculty-staff/faculty-directory/faculty-detail/60729/"><strong>Hanyang Zhuang</strong></a>
 
   </p>
 
@@ -27,7 +27,7 @@
     <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
     <a href="https://pytorchlightning.ai/"><img alt="Lightning" src="https://img.shields.io/badge/-Lightning-792ee5?logo=pytorchlightning&logoColor=white"></a>
     <br></br>
-    <a href="">
+    <a href="10.1109/TITS.2025.3633488">
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&labelColor=66cc00&color=94DD15' alt='Paper PDF'>
     </a>
   </p>
