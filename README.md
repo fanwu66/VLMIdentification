@@ -58,14 +58,11 @@ This project is not possible without the following codebases.
 # Citation
 If you use VLMIdentification in your research, please cite our work by using the following BibTeX entry:
 ```
-@ARTICLE{11264497,
+@article{wu2025enhancing,
+  title={Enhancing Robotaxi Pick-Up Through Vision-Language-Model-Based Passenger Identification},
   author={Wu, Fan and Song, Shaojing and Wu, QingE and Miao, Zhiqing and Sun, Xiang and Zhuang, Hanyang},
-  journal={IEEE Transactions on Intelligent Transportation Systems}, 
-  title={Enhancing Robotaxi Pick-Up Through Vision-Language-Model-Based Passenger Identification}, 
+  journal={IEEE TRANSACTIONS ON INTELLIGENT TRANSPORTATION SYSTEMS},
   year={2025},
-  volume={},
-  number={},
-  pages={1-14},
-  keywords={Robots;Autonomous vehicles;Visualization;Public transportation;Detectors;Measurement;Feature extraction;Cognition;Electronic mail;Routing;Large visual language model;robotaxi;transportation;human identification with multimodal},
-  doi={10.1109/TITS.2025.3633488}}
+  publisher={IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC 445 HOES LANE, PISCATAWAY, NJ~…}
+}
 ```
